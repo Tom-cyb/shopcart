@@ -1,7 +1,6 @@
 <template>
   <div class="my">
-    {{ num }}
-    <button @click="getnum()">123123</button>
+    我的
   </div>
 </template>
 <script>
@@ -13,11 +12,7 @@ export default {
     };
   },
 
-  methods: {
-    getnum() {
-      this.num++;
-    },
-  },
+  methods: {},
 };
 </script>
 <style>
