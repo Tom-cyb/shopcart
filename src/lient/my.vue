@@ -1,11 +1,23 @@
 <template>
   <div class="my">
-    个人中心
+    {{ num }}
+    <button @click="getnum()">123123</button>
   </div>
 </template>
 <script>
 export default {
   name: "my",
+  data() {
+    return {
+      num: 0,
+    };
+  },
+
+  methods: {
+    getnum() {
+      this.num++;
+    },
+  },
 };
 </script>
 <style>
