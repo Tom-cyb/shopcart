@@ -97,7 +97,7 @@ export default {
     onRefresh() {
       setTimeout(() => {
         Toast({
-          message: "1123",
+          message: "666",
           icon: "like-o",
         });
         this.isLoading = false;
